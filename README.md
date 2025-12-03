@@ -1,0 +1,2 @@
+# myHyprland
+my .conf
