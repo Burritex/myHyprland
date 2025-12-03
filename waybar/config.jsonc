@@ -1,0 +1,29 @@
+{
+    "include": [
+        "~/.config/waybar/modules/clock.jsonc",
+        "~/.config/waybar/modules/network.jsonc",
+        "~/.config/waybar/modules/battery.jsonc",
+
+		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
+		"~/.config/waybar/modules/hyprland/window.jsonc",
+
+		"~/.config/waybar/modules/custom/dividers.jsonc"
+    ],
+
+    "modules-left": [
+        "hyprland/workspaces",
+        "custom/divider#1",
+        "hyprland/window"
+    ],
+    "modules-right": [
+        "network",
+        "custom/divider#1",
+        "clock#date",
+        "clock#time",
+        "custom/divider#1",
+        "battery"
+    ],
+
+    "all-outputs": false,
+    "layer": "top"
+}
