@@ -3,6 +3,10 @@
         "~/.config/waybar/modules/clock.jsonc",
         "~/.config/waybar/modules/network.jsonc",
         "~/.config/waybar/modules/battery.jsonc",
+        "~/.config/waybar/modules/bluetooth.jsonc",
+        "~/.config/waybar/modules/pulseaudio.jsonc",
+        "~/.config/waybar/modules/memory.jsonc",
+		"~/.config/waybar/modules/pc_health.jsonc",
 
 		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
@@ -16,6 +20,11 @@
         "hyprland/window"
     ],
     "modules-right": [
+        "group/pc_health", 
+        "memory",
+        "custom/divider#1",
+        "bluetooth",
+        "pulseaudio",
         "network",
         "custom/divider#1",
         "clock#date",
@@ -24,6 +33,11 @@
         "battery"
     ],
 
-    "all-outputs": false,
-    "layer": "top"
+    "layer": "top",
+    "position": "top",
+    "height": 40,
+    "margin": "0 5 0 5",
+    "spacing":0,
+    "all-outputs": true,
+    "swap-icon-label": true
 }
