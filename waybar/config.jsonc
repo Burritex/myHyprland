@@ -11,10 +11,13 @@
 		"~/.config/waybar/modules/hyprland/workspaces.jsonc",
 		"~/.config/waybar/modules/hyprland/window.jsonc",
 
-		"~/.config/waybar/modules/custom/dividers.jsonc"
+		"~/.config/waybar/modules/custom/dividers.jsonc",
+		"~/.config/waybar/modules/custom/keyboard-layout.jsonc"
     ],
 
     "modules-left": [
+        "custom/keyboard-layout",
+        "custom/divider#1",
         "hyprland/workspaces",
         "custom/divider#1",
         "hyprland/window"

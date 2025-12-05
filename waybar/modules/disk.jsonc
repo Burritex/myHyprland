@@ -4,6 +4,6 @@
         "interval": 60,
         "format": " {percentage_used:2}%",
         "tooltip": true,
-        "tooltip-format": "  {percentage_used}%"
+        "tooltip-format": "Porcentagem usada do disco   - {percentage_used}%"
     }
 }

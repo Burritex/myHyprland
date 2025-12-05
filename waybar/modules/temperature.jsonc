@@ -5,6 +5,8 @@
 		"format": "{icon} {temperatureC}°",
         "format-icons": [
 			"","","","",""
-        ]
+        ],
+        "tooltip": true,
+        "tooltip-format": "Temperatura do PC {icon} - {temperatureC}º"
     }
 }
