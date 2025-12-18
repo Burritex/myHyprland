@@ -39,6 +39,7 @@
     "layer": "top",
     "position": "top",
     "height": 40,
+    "width": "auto",
     "margin": "0 5 0 5",
     "spacing":0,
     "all-outputs": true,

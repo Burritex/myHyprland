@@ -17,7 +17,7 @@
 		},
         "tooltip-format": "<b>Discharging</b>: {time}",
 		"tooltip-format-charging": "<b>Charging</b>: {time}",
-        "format-plugged": " ",
+        "format-plugged": " carregado ",
         "tooltip-format-plugged": "PC MODE "
     }
 }
